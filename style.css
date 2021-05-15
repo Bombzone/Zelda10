@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "Zelda";
+    src: url(ZeldaDXTTBRK.ttf);
+}
+@font-face {
+    font-family: "Triforce";
+    src: url(Triforce.ttf);
+}
+@font-face {
+    font-family: "Sherwood";
+    src: url(SherwoodRegular.ttf);
+}
+
+.z {
+    font-size: 35px;
+}
+
+.awakening b,
+.wild b {
+    font-weight: 900;
+    font-size: 150pt;
+    margin: 0%;
+    padding: 0%;
+    height: 10px !important;
+    letter-spacing: 15px;
+}
+
+b > b{
+    font-size: 200pt !important;
+}
+
+h1 {
+    text-align: left;
+    margin:0;
+    padding: 0%;
+}
+
+.main {
+display: flex;
+justify-content: center;
+}
+
+.img1 {
+    float: left;
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+}
+
+img {
+    margin: 5px;
+    height: inherit;
+    width: 30rem;
+}
+
+body {
+    background-color: #D3B56C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 25pt;
+    color: #CB1410;
+    text-align: center;
+    margin-bottom: 0%;
+    padding-bottom: 0%;    
+}
+
+.nav a {
+    color: black;
+}
+
+hr {
+    width: 100%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #8C867D;
+    font-family: Arial;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #CB1410;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #CB1410;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8C867D;
+    min-width: 150px;
+    max-width: 70%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    max-height: 45%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.dropdown-content a {
+    float: none;
+    color: antiquewhite;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #CB1410;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.wild,
+.awakening{
+    height: 200pt;
+    position: relative;
+}
+
+.wild p,
+.awakening p {
+    margin: 0px;
+    padding: 0%;
+    margin-right: 70px;
+    margin-top: 0;
+    height: 0px;
+    position:absolute;
+    bottom: 180pt;
+}
+
+.wild > span > span,
+.awakening > span > span {
+    margin-right: 50px;
+}
+
+.wild span,
+.awakening span {
+    margin: 0%;
+    margin-right: 5px;
+    font-size: 40pt;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: stretch;
+    align-items:flex-end;
+text-align: right !important;
+color: antiquewhite;
+text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+letter-spacing: 3px;
+}
+
+.wild > span > span,
+.awakening > span > span{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+h6 {
+    margin-left: 5px;
+    font-size: x-large;
+    text-align: left;
+    align-self: baseline;
+
+        margin: 0%;
+        padding: 0%;
+}
+
+.wild,
+.triforce {
+    font-family: "Triforce";
+}
+
+.awakening > span {
+    margin-right: 0px;
+}
+
+.awakening > span > span {
+    margin-right: 0%;
+    display:flex;
+    height: 40pt;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30pt;
+}
+
+.awakening > span > span > span {
+    display: flex;
+    align-self: center;
+    margin-right: 0%;
+    font-size: 35pt;
+    margin-top: 10px;
+}
+
+.content {
+  font-size: 20pt;
+}
+
+.past b {
+  color: #CB1410;
+  text-shadow: -1px 0 black,   0 1px black,   1px 0 black,   0 -1px black, 
+               -2px 0 #CB1410, 0 2px #CB1410, 2px 0 #CB1410, 0 -2px #CB1410;
+}
+
+.black { 
+  color: black !important;
+  text-shadow: none !important;
+}
+
+.past .sub {
+  margin-right: 0;
+  padding: 0;
+  font-size: 35pt;
+}
+.ocarina {
+  text-shadow: none;
+}
+.ocarina b {
+  color: #CB1410;
+  text-shadow: none;
+}
+.ocarina .sub {
+  margin-right: 20px;
+}
+body .wind span {
+  color: #CB1410;
+  text-shadow: -1px 0 black,   0 1px black,   1px 0 black,   0 -1px black;
+
+
+}
+body .wind span .yellow {
+  color: #EDB82F;
+}
+body .wind span .sub {
+    text-align: left !important;
+  font-family: "Sherwood";
+  font-size: 30pt;
+  position: absolute;
+  top: 200px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
+.blue {
+  margin-top: 10px !important;
+ color: #5497CC; 
+ font-style: oblique;
+ position: absolute;
+ left: 200px;
+text-align: right !important;
+}
+.br {
+    display: block;
+    margin: -35px!important;
+}
+.mask span b {
+  color: #65337E !important;
+  text-shadow: none;
+}
+.mask span {
+  text-shadow: -1px 0 black,   0 1px black,   1px 0 black,   0 -1px black;
+}
+.between_worlds {
+  text-decoration: overline underline;
+  margin-top: 20px !important;
+  height: fit-content;
+  font-size: 20pt !important;
+  color: black;
+  position: absolute;
+  left: 200px;
+  text-align: right !important;
+}
